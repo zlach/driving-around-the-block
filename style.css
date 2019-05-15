@@ -1,0 +1,151 @@
+/* body {
+    background-image: url('racetrack-inventive.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} */
+
+body {
+    font-family: 'Black Ops One', cursive;
+
+}
+
+#start-button {
+    color: black;
+    background: none;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    background-color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 585px;
+    top: 155px;
+}
+
+#start-button:focus {
+    outline: none;
+}
+
+#bg {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: -1;
+}
+
+#red-car {
+    position: absolute;
+    z-index: 1;
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+
+#t-r {
+    position: absolute;
+    /* border: 1px solid blueviolet; */
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+#t-l {
+    position: absolute;
+    /* border: 1px solid blueviolet; */
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+#b-l {
+    position: absolute;
+    /* border: 1px solid blueviolet; */
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+#b-r {
+    position: absolute;
+    /* border: 1px solid blueviolet; */
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+#countdown {
+    position: absolute;
+    left: 670px;
+    top: 400px;
+    font-size: 40px;
+    text-align: center;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+/* #v-b-m {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width: 800px;
+    height: 800px;
+    position:absolute;
+    left: 300px;
+}
+
+#v-s-m {
+    border-left: 1px dotted gray;
+    border-right: 1px dotted gray;
+    width: 300px;
+    height: 800px;
+    position:absolute;
+    left: 550px;
+}
+
+#v-s-l {
+    border-left: 1px solid black;
+    border-radius: 100px 0px 0px 100px;
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#v-s-r {
+    border-right: 1px solid black;
+    border-radius: 0px 100px 100px 0px;
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+}
+
+#h-i {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 100px;
+    width: 800px;
+    height: 400px;
+    top: 200px;
+    left: 300px;
+    position: absolute;
+}
+
+#h-o {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 100px;
+    width: 1200px;
+    height: 700px;
+    top: 50px;
+    left: 100px;
+    position: absolute;
+} */
